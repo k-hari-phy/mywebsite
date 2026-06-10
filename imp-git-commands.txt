@@ -1,0 +1,10 @@
+updating the folder:
+-------------------
+git add .
+git commit -m "Describe changes"
+git push
+
+status check:
+------------------
+git status
+git remote -v
