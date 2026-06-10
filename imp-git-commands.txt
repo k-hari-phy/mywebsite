@@ -8,3 +8,10 @@ status check:
 ------------------
 git status
 git remote -v
+
+
+Jekyll commands:
+-----------------
+bundle install % if new gem is added delete gemfile.lock file
+bundle update % run this if above is not used
+bundle exec jekyll serve % runs Jekyll and gives address
