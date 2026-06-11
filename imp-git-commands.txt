@@ -1,3 +1,26 @@
+Make sure the repository is pointing to the correct GitHub link on this machine:
+-------------------
+git remote -v
+
+If you see nothing or it points to an old HTTPS link, update it to use your working SSH connection by running:
+--------------------
+git remote set-url origin git@github.com:k-hari-phy/------repository-name------.git
+
+Download the exact changes your other machine pushed to GitHub:
+-------------------
+git pull origin main
+
+-----------------------------------------------------------------------------------
+To prevent Dropbox from corrupting your project files, always follow this workflow:
+Before you start working on any machine, always run:
+-------------------
+git pull origin main
+
+When you finish working, always commit and run:
+-------------------
+git push origin main
+-----------------------------------------------------------------------------------
+
 updating the folder:
 -------------------
 git add .
